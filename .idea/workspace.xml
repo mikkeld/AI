@@ -4,7 +4,6 @@
     <list default="true" id="51b635a3-4b07-4031-b025-15a34623c23c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sudoko/AIND-Sudoku" afterPath="$PROJECT_DIR$/Sudoko/AIND-Sudoku" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sudoko/AIND-Sudoku copy" afterPath="$PROJECT_DIR$/Sudoko/AIND-Sudoku copy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,8 +36,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Sudoko/AIND-Sudoku/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="16" column="71" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
+            <state relative-caret-position="180">
+              <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -606,8 +605,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Sudoko/AIND-Sudoku/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="16" column="71" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
+        <state relative-caret-position="180">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
           <folding />
         </state>
       </provider>

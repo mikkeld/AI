@@ -1,10 +1,13 @@
+from collections import Counter
+
 assignments = []
+
+"""
+Initial setup block for creating the Sudoku space
+"""
 
 rows = 'ABCDEFGHI'
 cols = '123456789'
-
-from collections import Counter
-
 
 def cross(a, b):
     return [s + t for s in a for t in b]
@@ -94,6 +97,12 @@ def display(values):
 
 
 def eliminate(values):
+    """
+    Goes through all the solved (1 digit) and whenever there is a box with a single
+    value, remove this from all its peers.
+    Input: Sudoku in dictionary form.
+    Outut: Resulting Sudoku in dictionary form after eliminating the solved choices.
+    """
     solved_values = [box for box in values.keys() if len(values[box]) == 1]
     for box in solved_values:
         digit = values[box]
@@ -103,6 +112,14 @@ def eliminate(values):
 
 
 def only_choice(values):
+    """Finalize all values that are the only choice for a unit.
+
+    Go through all the units, and whenever there is a unit with a value
+    that only fits in one box, assign the value to this box.
+
+    Input: Sudoku in dictionary form.
+    Output: Resulting Sudoku in dictionary form after filling in only choices.
+    """
     for unit in unitlist:
         for digit in '123456789':
             dplaces = [box for box in unit if digit in values[box]]
