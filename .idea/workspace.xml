@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51b635a3-4b07-4031-b025-15a34623c23c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sudoko/Depth First Search.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sudoko/playground.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sudoko/utils.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/AI.iml" afterPath="$PROJECT_DIR$/.idea/AI.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sudoko/AIND-Sudoku/solution.py" afterPath="$PROJECT_DIR$/Sudoko/AIND-Sudoku/solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sudoko/AIND-Sudoku" afterPath="$PROJECT_DIR$/Sudoko/AIND-Sudoku" />
     </list>
     <ignored path="AI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,11 +22,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="solution.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="solution.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Sudoko/AIND-Sudoku/solution.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-960">
-              <caret line="18" column="65" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
+            <state relative-caret-position="326">
+              <caret line="171" column="36" selection-start-line="171" selection-start-column="36" selection-end-line="171" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Sudoko/AIND-Sudoku/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -50,8 +55,8 @@
       <file leaf-file-name="solution_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Sudoko/AIND-Sudoku/solution_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="69" column="23" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
+            <state relative-caret-position="386">
+              <caret line="96" column="30" selection-start-line="96" selection-start-column="30" selection-end-line="96" selection-end-column="30" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -79,6 +84,7 @@
         <option value="$PROJECT_DIR$/Sudoko/AIND-Sudoku/solution_test.py" />
         <option value="$PROJECT_DIR$/Sudoko/playground.py" />
         <option value="$PROJECT_DIR$/Sudoko/AIND-Sudoku/solution.py" />
+        <option value="$PROJECT_DIR$/Sudoko/AIND-Sudoku/README.md" />
       </list>
     </option>
   </component>
@@ -174,7 +180,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="/usr/bin/python" />
   </component>
-  <component name="RunManager" selected="Python.solution">
+  <component name="RunManager" selected="Python tests.Unittest TestDiagonalSudoku.test_solve">
     <configuration default="false" name="solution" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -192,7 +198,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittests in TestNakedTwins" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittests in TestDiagonalSudoku" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -203,7 +209,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AI" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sudoko/AIND-Sudoku/solution_test.py" />
-      <option name="CLASS_NAME" value="TestNakedTwins" />
+      <option name="CLASS_NAME" value="TestDiagonalSudoku" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_CLASS" />
@@ -214,7 +220,7 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittest TestNakedTwins.test_naked_twins" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittest TestDiagonalSudoku.test_solve" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -225,8 +231,8 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AI" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sudoko/AIND-Sudoku/solution_test.py" />
-      <option name="CLASS_NAME" value="TestNakedTwins" />
-      <option name="METHOD_NAME" value="test_naked_twins" />
+      <option name="CLASS_NAME" value="TestDiagonalSudoku" />
+      <option name="METHOD_NAME" value="test_solve" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_METHOD" />
       <option name="PATTERN" value="" />
@@ -258,21 +264,26 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="playground" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="Unittest TestNakedTwins.test_naked_twins" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
+      <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sudoko" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sudoko/AIND-Sudoku" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AI" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sudoko/playground.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sudoko/AIND-Sudoku/solution_test.py" />
+      <option name="CLASS_NAME" value="TestNakedTwins" />
+      <option name="METHOD_NAME" value="test_naked_twins" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -411,18 +422,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.solution" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in TestNakedTwins" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest TestNakedTwins.test_naked_twins" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in TestDiagonalSudoku" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest TestDiagonalSudoku.test_solve" />
       <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest TestNakedTwins.test_naked_twins2" />
-      <item index="4" class="java.lang.String" itemvalue="Python.playground" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest TestNakedTwins.test_naked_twins" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.solution" />
-        <item index="1" class="java.lang.String" itemvalue="Python.playground" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest TestNakedTwins.test_naked_twins" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest TestNakedTwins.test_naked_twins2" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in TestNakedTwins" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest TestDiagonalSudoku.test_solve" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest TestNakedTwins.test_naked_twins" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest TestNakedTwins.test_naked_twins2" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in TestDiagonalSudoku" />
+        <item index="4" class="java.lang.String" itemvalue="Python.solution" />
       </list>
     </recent_temporary>
   </component>
@@ -440,35 +451,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittest_TestNakedTwins_test_naked_twins - 2017.02.19 at 11h 48m 55s.xml">
-      <configuration name="Unittest TestNakedTwins.test_naked_twins" configurationId="tests" />
+    <history-entry file="Unittest_TestDiagonalSudoku_test_solve - 2017.02.19 at 12h 43m 07s.xml">
+      <configuration name="Unittest TestDiagonalSudoku.test_solve" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_TestNakedTwins_test_naked_twins - 2017.02.19 at 11h 56m 50s.xml">
-      <configuration name="Unittest TestNakedTwins.test_naked_twins" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittest_TestNakedTwins_test_naked_twins - 2017.02.19 at 11h 56m 58s.xml">
-      <configuration name="Unittest TestNakedTwins.test_naked_twins" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittest_TestNakedTwins_test_naked_twins - 2017.02.19 at 11h 57m 12s.xml">
-      <configuration name="Unittest TestNakedTwins.test_naked_twins" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittest_TestNakedTwins_test_naked_twins - 2017.02.19 at 11h 57m 38s.xml">
-      <configuration name="Unittest TestNakedTwins.test_naked_twins" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittest_TestNakedTwins_test_naked_twins - 2017.02.19 at 11h 57m 51s.xml">
-      <configuration name="Unittest TestNakedTwins.test_naked_twins" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittest_TestNakedTwins_test_naked_twins - 2017.02.19 at 12h 01m 44s.xml">
-      <configuration name="Unittest TestNakedTwins.test_naked_twins" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittest_TestNakedTwins_test_naked_twins - 2017.02.19 at 12h 05m 24s.xml">
-      <configuration name="Unittest TestNakedTwins.test_naked_twins" configurationId="tests" />
+    <history-entry file="Unittest_TestDiagonalSudoku_test_solve - 2017.02.19 at 13h 03m 51s.xml">
+      <configuration name="Unittest TestDiagonalSudoku.test_solve" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittest_TestNakedTwins_test_naked_twins - 2017.02.19 at 12h 14m 24s.xml">
       <configuration name="Unittest TestNakedTwins.test_naked_twins" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittest_TestNakedTwins_test_naked_twins - 2017.02.19 at 13h 03m 48s.xml">
+      <configuration name="Unittest TestNakedTwins.test_naked_twins" configurationId="tests" />
+    </history-entry>
     <history-entry file="Unittest_TestNakedTwins_test_naked_twins2 - 2017.02.19 at 12h 05m 29s.xml">
       <configuration name="Unittest TestNakedTwins.test_naked_twins2" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittest_TestNakedTwins_test_naked_twins2 - 2017.02.19 at 13h 03m 46s.xml">
+      <configuration name="Unittest TestNakedTwins.test_naked_twins2" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_TestDiagonalSudoku - 2017.02.19 at 12h 42m 55s.xml">
+      <configuration name="Unittests in TestDiagonalSudoku" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_TestDiagonalSudoku - 2017.02.19 at 12h 58m 49s.xml">
+      <configuration name="Unittests in TestDiagonalSudoku" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_TestDiagonalSudoku - 2017.02.19 at 13h 03m 41s.xml">
+      <configuration name="Unittests in TestDiagonalSudoku" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_TestDiagonalSudoku - 2017.02.19 at 13h 03m 44s.xml">
+      <configuration name="Unittests in TestDiagonalSudoku" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -480,7 +491,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4181568" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24484181" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -567,14 +578,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sudoko/AIND-Sudoku/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-77">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Sudoko/utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-45">
@@ -585,8 +588,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Sudoko/AIND-Sudoku/solution_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="69" column="23" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
+        <state relative-caret-position="386">
+          <caret line="96" column="30" selection-start-line="96" selection-start-column="30" selection-end-line="96" selection-end-column="30" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -603,8 +606,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Sudoko/AIND-Sudoku/solution.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-960">
-          <caret line="18" column="65" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
+        <state relative-caret-position="326">
+          <caret line="171" column="36" selection-start-line="171" selection-start-column="36" selection-end-line="171" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sudoko/AIND-Sudoku/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
           <folding />
         </state>
       </provider>
