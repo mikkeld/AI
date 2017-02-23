@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51b635a3-4b07-4031-b025-15a34623c23c" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sudoko/AIND-Sudoku copy" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sudoko/AIND-Sudoku" afterPath="$PROJECT_DIR$/Sudoko/AIND-Sudoku" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sudoko/AIND-Sudoku copy" afterPath="$PROJECT_DIR$/Sudoko/AIND-Sudoku copy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/AI.iml" afterPath="$PROJECT_DIR$/.idea/AI.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AIND-Isolation-master/game_agent.py" afterPath="$PROJECT_DIR$/AIND-Isolation-master/game_agent.py" />
     </list>
     <ignored path="AI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,34 +26,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="solution.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sudoko/AIND-Sudoku/solution.py">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AIND-Isolation-master/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="286">
+              <caret line="80" column="45" selection-start-line="80" selection-start-column="45" selection-end-line="80" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Sudoko/AIND-Sudoku/README.md">
+      <file leaf-file-name="sample_players.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AIND-Isolation-master/sample_players.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="87" column="28" selection-start-line="87" selection-start-column="28" selection-end-line="87" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="solution_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sudoko/AIND-Sudoku/solution_test.py">
+      <file leaf-file-name="game_agent.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AIND-Isolation-master/game_agent.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1425">
-              <caret line="96" column="30" selection-start-line="96" selection-start-column="30" selection-end-line="96" selection-end-column="30" />
+            <state relative-caret-position="405">
+              <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="agent_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AIND-Isolation-master/agent_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7336">
+              <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tournament.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AIND-Isolation-master/tournament.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#1047#1063#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="isolation.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AIND-Isolation-master/isolation/isolation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-754">
+              <caret line="167" column="8" selection-start-line="167" selection-start-column="8" selection-end-line="167" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -77,6 +109,7 @@
         <option value="$PROJECT_DIR$/Sudoko/playground.py" />
         <option value="$PROJECT_DIR$/Sudoko/AIND-Sudoku/solution.py" />
         <option value="$PROJECT_DIR$/Sudoko/AIND-Sudoku/README.md" />
+        <option value="$PROJECT_DIR$/AIND-Isolation-master/game_agent.py" />
       </list>
     </option>
   </component>
@@ -139,7 +172,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Sudoko" />
+              <option name="myItemId" value="ML" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -153,11 +186,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Sudoko" />
+              <option name="myItemId" value="AIND-Isolation-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AI" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="AIND-Sudoku" />
+              <option name="myItemId" value="AIND-Isolation-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="isolation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -172,110 +219,110 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="/usr/bin/python" />
   </component>
-  <component name="RunManager" selected="Python tests.Unittest TestDiagonalSudoku.test_solve">
-    <configuration default="false" name="solution" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.tournament">
+    <configuration default="false" name="Unittest Project1Test.test_get_move_interface" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AIND-Isolation-master" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="AI" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AIND-Isolation-master/agent_test.py" />
+      <option name="CLASS_NAME" value="Project1Test" />
+      <option name="METHOD_NAME" value="test_get_move_interface" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest Project1Test.test_alphabeta" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AIND-Isolation-master" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="AI" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AIND-Isolation-master/agent_test.py" />
+      <option name="CLASS_NAME" value="Project1Test" />
+      <option name="METHOD_NAME" value="test_alphabeta" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest Project1Test.test_get_move" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AIND-Isolation-master" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="AI" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AIND-Isolation-master/agent_test.py" />
+      <option name="CLASS_NAME" value="Project1Test" />
+      <option name="METHOD_NAME" value="test_get_move" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in agent_test" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AIND-Isolation-master" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="AI" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AIND-Isolation-master/agent_test.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="tournament" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sudoko/AIND-Sudoku" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AIND-Isolation-master" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AI" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sudoko/AIND-Sudoku/solution.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AIND-Isolation-master/tournament.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittests in TestDiagonalSudoku" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sudoko/AIND-Sudoku" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="AI" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sudoko/AIND-Sudoku/solution_test.py" />
-      <option name="CLASS_NAME" value="TestDiagonalSudoku" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_CLASS" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittest TestDiagonalSudoku.test_solve" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sudoko/AIND-Sudoku" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="AI" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sudoko/AIND-Sudoku/solution_test.py" />
-      <option name="CLASS_NAME" value="TestDiagonalSudoku" />
-      <option name="METHOD_NAME" value="test_solve" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittest TestNakedTwins.test_naked_twins2" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sudoko/AIND-Sudoku" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="AI" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sudoko/AIND-Sudoku/solution_test.py" />
-      <option name="CLASS_NAME" value="TestNakedTwins" />
-      <option name="METHOD_NAME" value="test_naked_twins2" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittest TestNakedTwins.test_naked_twins" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sudoko/AIND-Sudoku" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="AI" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sudoko/AIND-Sudoku/solution_test.py" />
-      <option name="CLASS_NAME" value="TestNakedTwins" />
-      <option name="METHOD_NAME" value="test_naked_twins" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -413,19 +460,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.solution" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in TestDiagonalSudoku" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest TestDiagonalSudoku.test_solve" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest TestNakedTwins.test_naked_twins2" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest TestNakedTwins.test_naked_twins" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest Project1Test.test_get_move_interface" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest Project1Test.test_alphabeta" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest Project1Test.test_get_move" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in agent_test" />
+      <item index="4" class="java.lang.String" itemvalue="Python.tournament" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest TestDiagonalSudoku.test_solve" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest TestNakedTwins.test_naked_twins" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest TestNakedTwins.test_naked_twins2" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in TestDiagonalSudoku" />
-        <item index="4" class="java.lang.String" itemvalue="Python.solution" />
+        <item index="0" class="java.lang.String" itemvalue="Python.tournament" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in agent_test" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest Project1Test.test_get_move" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest Project1Test.test_alphabeta" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest Project1Test.test_get_move_interface" />
       </list>
     </recent_temporary>
   </component>
@@ -443,58 +490,58 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittest_TestDiagonalSudoku_test_solve - 2017.02.19 at 12h 43m 07s.xml">
-      <configuration name="Unittest TestDiagonalSudoku.test_solve" configurationId="tests" />
+    <history-entry file="Unittest_Project1Test_test_alphabeta - 2017.02.23 at 13h 40m 34s.xml">
+      <configuration name="Unittest Project1Test.test_alphabeta" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_TestDiagonalSudoku_test_solve - 2017.02.19 at 13h 03m 51s.xml">
-      <configuration name="Unittest TestDiagonalSudoku.test_solve" configurationId="tests" />
+    <history-entry file="Unittest_Project1Test_test_alphabeta - 2017.02.23 at 13h 44m 08s.xml">
+      <configuration name="Unittest Project1Test.test_alphabeta" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_TestNakedTwins_test_naked_twins - 2017.02.19 at 12h 14m 24s.xml">
-      <configuration name="Unittest TestNakedTwins.test_naked_twins" configurationId="tests" />
+    <history-entry file="Unittest_Project1Test_test_alphabeta - 2017.02.23 at 13h 46m 49s.xml">
+      <configuration name="Unittest Project1Test.test_alphabeta" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_TestNakedTwins_test_naked_twins - 2017.02.19 at 13h 03m 48s.xml">
-      <configuration name="Unittest TestNakedTwins.test_naked_twins" configurationId="tests" />
+    <history-entry file="Unittest_Project1Test_test_alphabeta_interface - 2017.02.23 at 12h 56m 56s.xml">
+      <configuration name="Unittest Project1Test.test_alphabeta_interface" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_TestNakedTwins_test_naked_twins2 - 2017.02.19 at 12h 05m 29s.xml">
-      <configuration name="Unittest TestNakedTwins.test_naked_twins2" configurationId="tests" />
+    <history-entry file="Unittest_Project1Test_test_get_move - 2017.02.23 at 13h 49m 18s.xml">
+      <configuration name="Unittest Project1Test.test_get_move" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_TestNakedTwins_test_naked_twins2 - 2017.02.19 at 13h 03m 46s.xml">
-      <configuration name="Unittest TestNakedTwins.test_naked_twins2" configurationId="tests" />
+    <history-entry file="Unittest_Project1Test_test_get_move_interface - 2017.02.23 at 13h 10m 41s.xml">
+      <configuration name="Unittest Project1Test.test_get_move_interface" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_TestDiagonalSudoku - 2017.02.19 at 12h 42m 55s.xml">
-      <configuration name="Unittests in TestDiagonalSudoku" configurationId="tests" />
+    <history-entry file="Unittest_Project1Test_test_get_move_interface - 2017.02.23 at 13h 23m 27s.xml">
+      <configuration name="Unittest Project1Test.test_get_move_interface" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_TestDiagonalSudoku - 2017.02.19 at 12h 58m 49s.xml">
-      <configuration name="Unittests in TestDiagonalSudoku" configurationId="tests" />
+    <history-entry file="Unittest_Project1Test_test_minimax - 2017.02.23 at 12h 55m 57s.xml">
+      <configuration name="Unittest Project1Test.test_minimax" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_TestDiagonalSudoku - 2017.02.19 at 13h 03m 41s.xml">
-      <configuration name="Unittests in TestDiagonalSudoku" configurationId="tests" />
+    <history-entry file="Unittest_Project1Test_test_minimax - 2017.02.23 at 12h 56m 03s.xml">
+      <configuration name="Unittest Project1Test.test_minimax" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_TestDiagonalSudoku - 2017.02.19 at 13h 03m 44s.xml">
-      <configuration name="Unittests in TestDiagonalSudoku" configurationId="tests" />
+    <history-entry file="Unittests_in_agent_test - 2017.02.23 at 13h 55m 15s.xml">
+      <configuration name="Unittests in agent_test" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="15" y="24" width="1326" height="796" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962293" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33287483" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39889959" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24484181" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39889959" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -536,7 +583,7 @@
         <state relative-caret-position="1425">
           <caret line="96" column="30" selection-start-line="96" selection-start-column="30" selection-end-line="96" selection-end-column="30" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -545,6 +592,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="309" column="4" selection-start-line="309" selection-start-column="4" selection-end-line="309" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -602,16 +650,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sudoko/AIND-Sudoku/solution_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1425">
-          <caret line="96" column="30" selection-start-line="96" selection-start-column="30" selection-end-line="96" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Sudoko/AIND-Sudoku/solution.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -622,8 +660,76 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Sudoko/AIND-Sudoku/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="315">
+          <caret line="22" column="123" selection-start-line="22" selection-start-column="123" selection-end-line="22" selection-end-column="123" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sudoko/AIND-Sudoku/solution_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="96" column="30" selection-start-line="96" selection-start-column="30" selection-end-line="96" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#15#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AIND-Isolation-master/isolation/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AIND-Isolation-master/isolation/isolation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-754">
+          <caret line="167" column="8" selection-start-line="167" selection-start-column="8" selection-end-line="167" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AIND-Isolation-master/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="80" column="45" selection-start-line="80" selection-start-column="45" selection-end-line="80" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AIND-Isolation-master/game_agent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AIND-Isolation-master/agent_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7336">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AIND-Isolation-master/tournament.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding>
+            <element signature="e#1047#1063#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AIND-Isolation-master/sample_players.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="87" column="28" selection-start-line="87" selection-start-column="28" selection-end-line="87" selection-end-column="28" />
           <folding />
         </state>
       </provider>
