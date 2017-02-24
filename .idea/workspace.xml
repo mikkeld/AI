@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51b635a3-4b07-4031-b025-15a34623c23c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tic-tac-toe/tic-tac-toe.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tic-tac-toe/game_agent.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tic-tac-toe/game_test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tic-tac-toe/tournament.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tic-tac-toe/tic-tac-toe.py" afterPath="$PROJECT_DIR$/tic-tac-toe/tic_tac_toe.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sudoko/AIND-Sudoku" afterPath="$PROJECT_DIR$/Sudoko/AIND-Sudoku" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/AI.iml" afterPath="$PROJECT_DIR$/.idea/AI.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AIND-Isolation-master/game_agent.py" afterPath="$PROJECT_DIR$/AIND-Isolation-master/game_agent.py" />
     </list>
     <ignored path="AI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,31 +29,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="solution.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sudoko/AIND-Sudoku/solution.py">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AIND-Isolation-master/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1995">
-              <caret line="24" column="65" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
+            <state relative-caret-position="74">
+              <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tic-tac-toe.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tic-tac-toe/tic-tac-toe.py">
+      <file leaf-file-name="tournament.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AIND-Isolation-master/tournament.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" column="40" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
+            <state relative-caret-position="207">
+              <caret line="163" column="51" selection-start-line="163" selection-start-column="51" selection-end-line="163" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="isolation.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AIND-Isolation-master/isolation/isolation.py">
+      <file leaf-file-name="game_agent.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AIND-Isolation-master/game_agent.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="101" column="39" selection-start-line="101" selection-start-column="39" selection-end-line="101" selection-end-column="39" />
+            <state relative-caret-position="735">
+              <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sample_players.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AIND-Isolation-master/sample_players.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -75,8 +90,12 @@
         <option value="$PROJECT_DIR$/Sudoko/playground.py" />
         <option value="$PROJECT_DIR$/Sudoko/AIND-Sudoku/solution.py" />
         <option value="$PROJECT_DIR$/Sudoko/AIND-Sudoku/README.md" />
-        <option value="$PROJECT_DIR$/AIND-Isolation-master/game_agent.py" />
         <option value="$PROJECT_DIR$/tic-tac-toe/tic-tac-toe.py" />
+        <option value="$PROJECT_DIR$/tic-tac-toe/game_test.py" />
+        <option value="$PROJECT_DIR$/tic-tac-toe/tournament.py" />
+        <option value="$PROJECT_DIR$/tic-tac-toe/tic_tac_toe.py" />
+        <option value="$PROJECT_DIR$/tic-tac-toe/game_agent.py" />
+        <option value="$PROJECT_DIR$/AIND-Isolation-master/game_agent.py" />
       </list>
     </option>
   </component>
@@ -139,85 +158,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tic-tac-toe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sudoko" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sudoko" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AIND-Sudoku" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="AIND-Isolation-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AIND-Isolation-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="isolation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -232,20 +173,37 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="/usr/bin/python" />
   </component>
-  <component name="RunManager" selected="Python.tic-tac-toe">
-    <configuration default="false" name="Unittest Project1Test.test_alphabeta" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.tournament">
+    <configuration default="false" name="tournament (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AIND-Isolation-master" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tic-tac-toe" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AI" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AIND-Isolation-master/agent_test.py" />
-      <option name="CLASS_NAME" value="Project1Test" />
-      <option name="METHOD_NAME" value="test_alphabeta" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tic-tac-toe/tournament.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest TestBoard.test_losing_combination" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tic-tac-toe" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="AI" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tic-tac-toe/game_test.py" />
+      <option name="CLASS_NAME" value="TestBoard" />
+      <option name="METHOD_NAME" value="test_losing_combination" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_METHOD" />
       <option name="PATTERN" value="" />
@@ -255,48 +213,38 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittest Project1Test.test_get_move" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="tic_tac_toe" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AIND-Isolation-master" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tic-tac-toe" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AI" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AIND-Isolation-master/agent_test.py" />
-      <option name="CLASS_NAME" value="Project1Test" />
-      <option name="METHOD_NAME" value="test_get_move" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tic-tac-toe/tic_tac_toe.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittests in agent_test" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="game_agent" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AIND-Isolation-master" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tic-tac-toe" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AI" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AIND-Isolation-master/agent_test.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tic-tac-toe/game_agent.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
     <configuration default="false" name="tournament" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -312,23 +260,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AI" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AIND-Isolation-master/tournament.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="tic-tac-toe" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tic-tac-toe" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="AI" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tic-tac-toe/tic-tac-toe.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -468,19 +399,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest Project1Test.test_alphabeta" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest Project1Test.test_get_move" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in agent_test" />
-      <item index="3" class="java.lang.String" itemvalue="Python.tournament" />
-      <item index="4" class="java.lang.String" itemvalue="Python.tic-tac-toe" />
+      <item index="0" class="java.lang.String" itemvalue="Python.tournament (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest TestBoard.test_losing_combination" />
+      <item index="2" class="java.lang.String" itemvalue="Python.tic_tac_toe" />
+      <item index="3" class="java.lang.String" itemvalue="Python.game_agent" />
+      <item index="4" class="java.lang.String" itemvalue="Python.tournament" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.tic-tac-toe" />
-        <item index="1" class="java.lang.String" itemvalue="Python.tournament" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in agent_test" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest Project1Test.test_get_move" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest Project1Test.test_alphabeta" />
+        <item index="0" class="java.lang.String" itemvalue="Python.tournament" />
+        <item index="1" class="java.lang.String" itemvalue="Python.tournament (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.game_agent" />
+        <item index="3" class="java.lang.String" itemvalue="Python.tic_tac_toe" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest TestBoard.test_losing_combination" />
       </list>
     </recent_temporary>
   </component>
@@ -498,57 +429,66 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittest_Project1Test_test_alphabeta - 2017.02.23 at 13h 40m 34s.xml">
-      <configuration name="Unittest Project1Test.test_alphabeta" configurationId="tests" />
+    <history-entry file="Unittest_TestBoard_test_losing_combination - 2017.02.24 at 10h 40m 08s.xml">
+      <configuration name="Unittest TestBoard.test_losing_combination" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_Project1Test_test_alphabeta - 2017.02.23 at 13h 44m 08s.xml">
-      <configuration name="Unittest Project1Test.test_alphabeta" configurationId="tests" />
+    <history-entry file="Unittest_TestBoard_test_losing_combination - 2017.02.24 at 10h 40m 14s.xml">
+      <configuration name="Unittest TestBoard.test_losing_combination" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_Project1Test_test_alphabeta - 2017.02.23 at 13h 46m 49s.xml">
-      <configuration name="Unittest Project1Test.test_alphabeta" configurationId="tests" />
+    <history-entry file="Unittest_TestBoard_test_winning_combination - 2017.02.24 at 10h 28m 56s.xml">
+      <configuration name="Unittest TestBoard.test_winning_combination" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_Project1Test_test_alphabeta_interface - 2017.02.23 at 12h 56m 56s.xml">
-      <configuration name="Unittest Project1Test.test_alphabeta_interface" configurationId="tests" />
+    <history-entry file="Unittest_TestBoard_test_winning_combination - 2017.02.24 at 10h 32m 33s.xml">
+      <configuration name="Unittest TestBoard.test_winning_combination" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_Project1Test_test_get_move - 2017.02.23 at 13h 49m 18s.xml">
-      <configuration name="Unittest Project1Test.test_get_move" configurationId="tests" />
+    <history-entry file="Unittest_TestBoard_test_winning_combination - 2017.02.24 at 10h 38m 21s.xml">
+      <configuration name="Unittest TestBoard.test_winning_combination" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_Project1Test_test_get_move_interface - 2017.02.23 at 13h 10m 41s.xml">
-      <configuration name="Unittest Project1Test.test_get_move_interface" configurationId="tests" />
+    <history-entry file="Unittest_TestBoard_test_winning_combination - 2017.02.24 at 10h 39m 36s.xml">
+      <configuration name="Unittest TestBoard.test_winning_combination" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_Project1Test_test_get_move_interface - 2017.02.23 at 13h 23m 27s.xml">
-      <configuration name="Unittest Project1Test.test_get_move_interface" configurationId="tests" />
+    <history-entry file="Unittest_test_winning_combination - 2017.02.24 at 10h 24m 31s.xml">
+      <configuration name="Unittest test_winning_combination" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_Project1Test_test_minimax - 2017.02.23 at 12h 55m 57s.xml">
-      <configuration name="Unittest Project1Test.test_minimax" configurationId="tests" />
+    <history-entry file="Unittest_test_winning_combination - 2017.02.24 at 10h 25m 51s.xml">
+      <configuration name="Unittest test_winning_combination" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_Project1Test_test_minimax - 2017.02.23 at 12h 56m 03s.xml">
-      <configuration name="Unittest Project1Test.test_minimax" configurationId="tests" />
+    <history-entry file="Unittests_in_game_test - 2017.02.24 at 10h 28m 52s.xml">
+      <configuration name="Unittests in game_test" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_agent_test - 2017.02.23 at 13h 55m 15s.xml">
-      <configuration name="Unittests in agent_test" configurationId="tests" />
+    <history-entry file="Unittests_in_game_test - 2017.02.24 at 10h 30m 28s.xml">
+      <configuration name="Unittests in game_test" configurationId="tests" />
     </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="15" y="24" width="1326" height="796" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962293" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33287483" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4085282" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39889959" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28885832" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -676,14 +616,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AIND-Isolation-master/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="80" column="45" selection-start-line="80" selection-start-column="45" selection-end-line="80" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AIND-Isolation-master/agent_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7336">
@@ -697,34 +629,8 @@
         <state relative-caret-position="-308">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
-            <element signature="e#422#431#0" expanded="true" />
+            <element signature="e#422#431#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AIND-Isolation-master/tournament.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-158">
-          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-          <folding>
-            <element signature="e#1047#1063#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AIND-Isolation-master/sample_players.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2205">
-          <caret line="86" column="7" selection-start-line="86" selection-start-column="7" selection-end-line="86" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AIND-Isolation-master/game_agent.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -732,14 +638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1275">
           <caret line="136" column="4" selection-start-line="136" selection-start-column="4" selection-end-line="136" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AIND-Isolation-master/isolation/isolation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="101" column="39" selection-start-line="101" selection-start-column="39" selection-end-line="101" selection-end-column="39" />
           <folding />
         </state>
       </provider>
@@ -752,10 +650,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tic-tac-toe/tic-tac-toe.py">
+    <entry file="file://$PROJECT_DIR$/tic-tac-toe/game_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="40" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
+        <state relative-caret-position="225">
+          <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AIND-Isolation-master/isolation/isolation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1051">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tic-tac-toe/tic_tac_toe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding>
+            <element signature="e#94#115#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tic-tac-toe/game_agent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="50" column="51" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tic-tac-toe/tournament.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AIND-Isolation-master/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AIND-Isolation-master/tournament.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="163" column="51" selection-start-line="163" selection-start-column="51" selection-end-line="163" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AIND-Isolation-master/game_agent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AIND-Isolation-master/sample_players.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
           <folding />
         </state>
       </provider>

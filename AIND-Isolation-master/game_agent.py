@@ -48,8 +48,7 @@ def custom_score(game, player):
 
     return float(len(player_moves) - len(opponent_moves))
 
-
-class CustomPlayer:
+class CustomPlayer(object):
     """Game-playing agent that chooses a move using your evaluation function
     and a depth-limited minimax algorithm with alpha-beta pruning. You must
     finish and test this player to make sure it properly uses minimax and
