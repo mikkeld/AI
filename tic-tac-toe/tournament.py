@@ -15,11 +15,10 @@ class RandomPlayer(object):
 
 def play_game(player1, player2):
     game = Board(player1, player2)
-
     winner = None
 
     for i in range(9):
-        print("state:", game.board_state)
+        print(game.board_state)
         move = game.get_active_player().get_move(game)
         game.apply_move(move)
         player = game.get_active_player()
@@ -36,12 +35,12 @@ def play_game(player1, player2):
 def play_n_games(n):
     winners = {1: 0, 2: 0, None: 0}
     for i in range(n):
-        player1 = CustomPlayer()
-        player2 = RandomPlayer()
+        player1 = RandomPlayer()
+        player2 = CustomPlayer()
         winner = play_game(player1, player2)
         winners[winner] += 1
 
     return winners
 
 
-print(play_n_games(1))
+print(play_n_games(10))

@@ -129,7 +129,5 @@ class Position(object):
     def get_position(self):
         return self.row, self.column
 
-    def __str__(self):
-        return str(self.row), str(self.column)
 
 
